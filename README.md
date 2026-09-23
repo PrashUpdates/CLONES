@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# C L O N E S
+# C L O N E S 🛸
 
 <p align="center">
   <b>A collection of web and app clones built to practice frontend development, UI design & JavaScript.</b>

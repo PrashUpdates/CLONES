@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  /* MAIN COLORS */
+  --netflix-red: #E50914;
+  --bg-white: #FFFFFF;
+  --text-black: #000000;
+  --text-white: #FFFFFF;
+
+  /* TEXT COLORS */
+  --text-gray-dark: #545454;
+  --text-gray-light: #8C8C8C;
+
+  /* BORDER & SHADOW */
+  --border-gray: #E6E6E6;
+  --shadow-black: rgba(0, 0, 0, 0.2);
+
+  /* CARD COLORS */
+  --mobile-pink-start: hotpink;
+  --mobile-pink-end: pink;
+
+  --basic-purple-start: #5B3EFF;
+  --basic-purple-end: #7B2FF7;
+
+  --standard-blue-start: #0072FF;
+  --standard-blue-end: #00C6FF;
+
+  --premium-gold-start: #B8860B;
+  --premium-gold-end: #FFD700;
+
+  /* LINK COLOR */
+  --link-blue: #1E90FF;
+}
+
+/* BODY */
+body {
+  background: var(--bg-white);
+  font-family: poppins, sans-serif;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 9rem;
+  align-items: center;
+  border-bottom: 1.2px solid var(--border-gray);
+}
+
+.netflix-logo {
+  width: 11rem;
+  height: 8rem;
+  margin-left: 2.7rem;
+  margin-top: 5rem;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-sign-out {
+  font-weight: 700;
+  color: var(--text-black);
+  font-size: 1.5rem;
+  margin-right: 3.3rem;
+}
+
+/* STEPS & HEADING */
+.box1 {
+  margin: 15px;
+}
+
+.steps {
+  font-size: 14px;
+  word-spacing: 10px;
+  padding-left: 9px;
+  font-weight: 500;
+}
+
+.step-num {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 3px;
+}
+
+.heading {
+  font-size: 29px;
+  font-weight: 700;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+/* ALIGNMENT CONTAINER */
+.alignment {
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* PRICE CARDS */
+.price-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cards {
+  min-width: 102px;
+  flex: 1;
+  height: 110px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border-gray);
+  margin: auto 4px;
+  transition: 0.1s;
+  position: relative;
+}
+
+.cards p {
+  padding-left: 12px;
+  padding-top: 12px;
+  font-weight: 600;
+}
+
+.to-up {
+  margin-top: -8px;
+}
+
+.bold-card-text {
+  font-size: 10.5px;
+  font-weight: 700;
+}
+
+.normal-text {
+  padding-top: 0;
+}
+
+.card-two {
+  height: 140px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  width: 100%;
+  border: 1.5px solid var(--border-gray);
+}
+
+.card-two-child {
+  flex: 1;
+  height: 34px;
+  border-bottom: 0.1px solid var(--border-gray);
+}
+
+.check-icon ion-icon {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}
+
+.cards.active .check-icon ion-icon {
+  display: flex;
+  color: var(--text-white);
+}
+
+/* CARD HOVER & ACTIVE STATES */
+.first-card:hover,
+.first-card.active {
+  box-shadow: 4px 4px 15px var(--shadow-black);
+  background: linear-gradient(
+    135deg,
+    var(--mobile-pink-start),
+    var(--mobile-pink-end)
+  );
+  border: 0px solid var(--border-gray);
+  color: var(--text-white);
+}
+
+.card-two:hover,
+.card-two.active {
+  box-shadow: 4px 4px 15px var(--shadow-black);
+  background: linear-gradient(
+    135deg,
+    var(--basic-purple-start),
+    var(--basic-purple-end)
+  );
+  color: var(--text-white);
+  border: 0px solid var(--border-gray);
+}
+
+.card-two-child:hover,
+.card-two.active .card-two-child {
+  background: var(--basic-purple-end);
+  color: var(--text-white);
+  border-bottom: none;
+}
+
+.third-card:hover,
+.third-card.active {
+  box-shadow: 4px 4px 15px var(--shadow-black);
+  background: linear-gradient(
+    135deg,
+    var(--standard-blue-start),
+    var(--standard-blue-end)
+  );
+  color: var(--text-white);
+  border: 0px solid var(--border-gray);
+}
+
+.fourth-card:hover,
+.fourth-card.active {
+  box-shadow: 4px 4px 15px var(--shadow-black);
+  background: linear-gradient(
+    135deg,
+    var(--premium-gold-start),
+    var(--premium-gold-end)
+  );
+  border: 0px solid var(--border-gray);
+  color: var(--text-white);
+}
+
+.cards.active {
+  transform: scale(1.02);
+}
+
+/* PLAN DETAILS */
+.plan-details {
+  margin-top: 2px;
+}
+
+.plan-details p {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.light {
+  color: var(--text-gray-light);
+}
+
+.dark {
+  color: var(--text-gray-dark);
+}
+
+.paras {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.2px solid var(--border-gray);
+}
+
+.more-height {
+  height: 65px;
+}
+
+.no-border {
+  border: none;
+}
+
+/* INFO */
+.info {
+  margin-top: 40px;
+}
+
+.info p {
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: var(--text-gray-light);
+  font-size: 11.9px;
+}
+
+.info p a {
+  color: var(--link-blue);
+  text-decoration: underline;
+}
+
+/* NEXT BUTTON */
+.next-btn {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  padding: 13px 17px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 6px;
+  color: var(--text-white);
+  background: var(--netflix-red);
+}
+
+/* FOOTER */
+.line {
+  height: 0.8px;
+  background: var(--border-gray);
+}
+
+.footer {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-two div p {
+  margin-bottom: 10px;
+  color: var(--text-gray-dark);
+}
+
+.footer-two {
+  text-decoration: underline;
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  height: 70px;
+  font-size: 13px;
+}

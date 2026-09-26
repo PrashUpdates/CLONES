@@ -21,3 +21,7 @@ A responsive Netflix-inspired plan selection page built using **HTML, CSS & Java
 - 🌐 HTML5
 - 🎨 CSS3
 - ⚙️ JavaScript
+
+## 🌐 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/View%20Live%20Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](/)

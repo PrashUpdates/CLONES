@@ -56,6 +56,7 @@ Each clone focuses on improving my understanding of **UI design, responsive layo
  ┣ 📂 <clone-folder-3>
  ┃ ┗ ...
  ┗ 📜 README.md
+```
 
 ---
 

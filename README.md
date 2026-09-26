@@ -56,3 +56,11 @@ Each clone focuses on improving my understanding of **UI design, responsive layo
  ┣ 📂 <clone-folder-3>
  ┃ ┗ ...
  ┗ 📜 README.md
+
+---
+
+### 🛸<span>&nbsp;Showcase</span>
+
+* **Infinite Scroller** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Infinite%20Scroller)
+* **Project Name 2** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Folder%20Name)
+* **Project Name 3** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Folder%20Name)

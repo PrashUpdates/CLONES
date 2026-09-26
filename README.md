@@ -63,5 +63,5 @@ Each clone focuses on improving my understanding of **UI design, responsive layo
 ### 🛸<span>&nbsp;Showcase</span>
 
 * **Spotify Premium** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Spotify%20Premium)
-* **Project Name 2** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Folder%20Name)
+* **Netflix Premium** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Netflix%20Premium)
 * **Project Name 3** — [<img src="https://img.shields.io/badge/Open_Folder-007bff?style=flat-square&logo=github&logoColor=white" height="20" align="center" />](./Folder%20Name)

@@ -8,7 +8,7 @@ A responsive Netflix-inspired plan selection page built using **HTML, CSS & Java
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45"/>
 </p>
 
-### ✨ Features
+## ✨ Features
 
 - 🎯 Interactive plan selection
 - 💳 Dynamic pricing & plan details
@@ -16,7 +16,7 @@ A responsive Netflix-inspired plan selection page built using **HTML, CSS & Java
 - 📱 Responsive layout
 - ⚡ Smooth active states
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - 🌐 HTML5
 - 🎨 CSS3

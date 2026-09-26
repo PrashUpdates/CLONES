@@ -28,4 +28,4 @@ A responsive Spotify-inspired Premium pricing section built using HTML and CSS.
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/View%20Live%20Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://spotifypremium-page.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/View%20Live%20Demo-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://spotifypremium-cqy.pages.dev/)

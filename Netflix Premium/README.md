@@ -24,4 +24,4 @@ A responsive Netflix-inspired plan selection page built using **HTML, CSS & Java
 
 ## 🌐 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/View%20Live%20Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](/)
+[![Live Demo](https://img.shields.io/badge/View%20Live%20Demo-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netflixpremium.prashantupdate.workers.dev/)
